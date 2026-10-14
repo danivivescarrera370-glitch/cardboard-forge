@@ -1,0 +1,20 @@
+modLoader="rubyforforge"
+loaderVersion="[1.0,)"
+
+license="MIT"
+
+[[mods]]
+modId="ruby_mod"
+version="1.0.0"
+displayName="Ruby for Forge Mod"
+authors="Developer"
+credits="Based on the original Fabric project by Bownlux (RevivalSMP.net)"
+description="A Minecraft mod running on the Ruby language loader engine."
+
+[[dependencies.ruby_mod]]
+modId="neoforge"
+type="required"
+versionRange="[21,)"
+ordering="NONE"
+side="BOTH"
+
